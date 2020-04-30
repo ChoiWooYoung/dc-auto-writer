@@ -6,13 +6,13 @@ options.add_argument("user-agent=CUSTOM_USER-AGENT")
 driver = webdriver.Chrome('Webdriver PATH', chrome_options = options)
 title = "제목"
 content="내용"
-id = "ID"
-pw= "PW"
+uesr_id = "ID"
+uesr_pw= "PW"
 gall = "Target Gall URL"
 
 driver.get("https://dcinside.com")
-driver.find_element_by_xpath('//*[@id="user_id"]').send_keys(id)
-driver.find_element_by_xpath('//*[@id="pw"]').send_keys(pw)
+driver.find_element_by_xpath('//*[@id="user_id"]').send_keys(uesr_id)
+driver.find_element_by_xpath('//*[@id="pw"]').send_keys(user_pw)
 driver.find_element_by_xpath('//*[@id="login_ok"]').click()
 driver.get(gall)
 time.sleep(3)
