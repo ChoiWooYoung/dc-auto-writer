@@ -1,5 +1,6 @@
 # dc-auto-writer
 dcinside 게시글 자동 작성기 (공부용)
+
 로그인부터 글쓰기 까지 한번에.
 
 ## Requirements
